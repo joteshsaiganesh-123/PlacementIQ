@@ -104,6 +104,8 @@ export const api = {
     method: 'PUT',
     body: JSON.stringify(statusData)
   }),
+  // Demo Users
+  getDemoUsers: () => request('/auth/demo-users'),
 
   // Analytics
   getAnalyticsSummary: () => request('/analytics/summary')
